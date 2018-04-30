@@ -1,0 +1,20 @@
+{
+  "name": "gulp-bemblocks",
+  "version": "1.0.0",
+  "description": "Pug plugin for defining page blocks in Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "pug",
+    "bem",
+    "bemblocks"
+  ],
+  "author": {
+    "name": "Legostaev Vadim",
+    "email": "legostaev.vadim@mail.ru"
+  },
+  "license": "ISC"
+}
