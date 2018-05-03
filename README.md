@@ -17,9 +17,7 @@ var bemblocks = require('gulp-bemblocks');
 
 gulp.task('pages', function () {
     return gulp.src('app/**/*.pug')
-        .pipe(pug({
-            plugins: [bemblocks]
-        }))
+        .pipe(bemblocks.lex('type'))
         .pipe(gulp.dest('dist'));
 });
 ```
