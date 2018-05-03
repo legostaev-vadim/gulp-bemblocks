@@ -1,6 +1,6 @@
 {
   "name": "gulp-bemblocks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pug plugin for defining page blocks in Gulp",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,9 @@
     "name": "Legostaev Vadim",
     "email": "legostaev.vadim@mail.ru"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pug-lexer": "^4.0.0",
+    "through2": "^2.0.3"
+  }
 }
